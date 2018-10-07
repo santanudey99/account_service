@@ -74,11 +74,11 @@
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.0</version>
 				<configuration>
-					<repository>santanudey99/poc</repository>
+					<repository>account_service</repository>
 					<tag>${project.version}</tag>
-					<buildArgs>
+					<!-- <buildArgs>
 						<JAR_FILE>target/AccountService-0.0.1-SNAPSHOT.jar</JAR_FILE>
-					</buildArgs>
+					</buildArgs> -->
 				</configuration>
 				<executions>
 					<execution>
